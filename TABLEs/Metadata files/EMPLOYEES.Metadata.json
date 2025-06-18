@@ -168,6 +168,34 @@
       "BAD": null,
       "Columns": [
         {
+          "COLUMN_NAME": "SALARY",
+          "POSITION": null,
+          "TABLE_NAME": "EMPLOYEES"
+        }
+      ],
+      "CONSTRAINT_TYPE": "C",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": null,
+      "GENERATED": "USER NAME",
+      "GENERATED_CONSTRAINT_NAME": "CHK_SALARY_POSITIVE",
+      "INDEX_NAME": null,
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": null,
+      "RELY": null,
+      "RemoteConstraint": [],
+      "SEARCH_CONDITION": "salary > 0",
+      "SEARCH_CONDITION_VC": "salary > 0",
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "EMPLOYEES",
+      "TYPE": "TABLE",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    },
+    {
+      "BAD": null,
+      "Columns": [
+        {
           "COLUMN_NAME": "ID",
           "POSITION": 1.0,
           "TABLE_NAME": "EMPLOYEES"
