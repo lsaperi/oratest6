@@ -129,41 +129,6 @@
       "TYPE": "TABLE",
       "VALIDATED": "VALIDATED",
       "VIEW_RELATED": null
-    },
-    {
-      "BAD": null,
-      "Columns": [
-        {
-          "COLUMN_NAME": "DEPARTAMENTO_ID",
-          "POSITION": 1.0,
-          "TABLE_NAME": "EMPLEADOS"
-        }
-      ],
-      "CONSTRAINT_TYPE": "R",
-      "DEFERRABLE": "NOT DEFERRABLE",
-      "DEFERRED": "IMMEDIATE",
-      "DELETE_RULE": "NO ACTION",
-      "GENERATED": "USER NAME",
-      "GENERATED_CONSTRAINT_NAME": "FK_EMPLEADOS_DEPTOS",
-      "INDEX_NAME": null,
-      "INVALID": null,
-      "R_CONSTRAINT_NAME": "SYS_C0010048",
-      "RELY": null,
-      "RemoteConstraint": [
-        {
-          "COLUMN_NAME": "ID",
-          "POSITION": 1.0,
-          "R_CONSTRAINT_NAME": "SYS_C0010048",
-          "TABLE_NAME": "DEPARTAMENTOS"
-        }
-      ],
-      "SEARCH_CONDITION": null,
-      "SEARCH_CONDITION_VC": null,
-      "STATUS": "ENABLED",
-      "TABLE_NAME": "EMPLEADOS",
-      "TYPE": "TABLE",
-      "VALIDATED": "VALIDATED",
-      "VIEW_RELATED": null
     }
   ],
   "Table_Indexes": []
